@@ -12,9 +12,9 @@ arcade.set_background_color(arcade.color.AIR_SUPERIORITY_BLUE)
 # Get ready to draw
 arcade.start_render()
 
-arcade.draw_rectangle_filled(0, 0, 10000, 500, arcade.color.SHAMROCK_GREEN)
+arcade.draw_rectangle_filled(0, 0, 10000, 500, arcade.color.SHAMROCK_GREEN) #suelo
 
-
+arcade.draw_ellipse_filled(480,190,255,129,arcade.color.LA_SALLE_GREEN	,10) #sombra
 
 
 arcade.draw_ellipse_filled(270,270,20,70,arcade.color.BLACK,40)
@@ -33,13 +33,13 @@ arcade.draw_ellipse_filled(488,262,40,129,arcade.color.FOREST_GREEN)
 arcade.draw_rectangle_filled(400, 200, 190, 10, arcade.color.FOREST_GREEN)
 
 arcade.draw_ellipse_filled(400, 300, 200,189, arcade.color.DARK_PASTEL_GREEN) #circulo principal
-arcade.draw_ellipse_filled(340,300,20,70,arcade.color.BLACK)
+arcade.draw_ellipse_filled(340,300,20,70,arcade.color.BLACK) #ojos
 arcade.draw_ellipse_filled(420,300,20,70,arcade.color.BLACK)
 
 
-arcade.draw_ellipse_filled(480,190,255,129,arcade.color.FOREST_GREEN,10)
+
 #correccion esquinas xd:
-arcade.draw_arc_outline(470, 235, 100, 100,arcade.color.SHAMROCK_GREEN, 20, 100,40,240)
+arcade.draw_arc_outline(470, 235, 100, 100,arcade.color.LA_SALLE_GREEN	, 20, 100,40,240)
 arcade.draw_arc_outline(340, 230, 110, 100,arcade.color.SHAMROCK_GREEN, 20, 100,40,160)
 
 
