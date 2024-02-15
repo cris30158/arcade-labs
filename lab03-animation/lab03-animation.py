@@ -12,7 +12,7 @@ def draw_slime(x,y,w,h,verde,oscuro,espada):
     arcade.draw_ellipse_filled(w*270+x, h*270+y, 20*w, 70*h, arcade.color.BLACK, 40)
     arcade.draw_rectangle_filled(w*300+x, h*245+y, 20*w, 70*h, arcade.color.BLACK, 310)
 
-    arcade.draw_rectangle_filled(w*230+x, h*300+y, 30*w, 100*h, espada, 310)
+    arcade.draw_rectangle_filled(w*230+x, h*300+y, 30*w, 100*h, espada, 310)  #cambiar por -50
     arcade.draw_triangle_filled(w*205+x, h*341+y, w*186+x, h*316+y, w*165+x, h*355+y, espada)
 
     arcade.draw_rectangle_filled(w*230+x, h*300+y, 1*w, 100*h, arcade.color.SPANISH_GRAY, 310)
