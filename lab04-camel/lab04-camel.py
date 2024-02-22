@@ -51,7 +51,6 @@ class Game():
 
             else:
                 print("khe?")
-                self.ir(currentroom)
 
         print("has salido!")
 
